@@ -12,13 +12,6 @@ client = discord.Client()
 #bot = commands.Bot(command_prefix='/')
 
 
-# 起動時に動作する処理
-@client.event
-async def on_ready():
-    # 起動したらターミナルにログイン通知が表示される
-    print('ログインしました\n')
-
-
 
 #async def input_number(num):
     #return num
