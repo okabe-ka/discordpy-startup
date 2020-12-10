@@ -94,34 +94,6 @@ async def on_message(message):
         #        return
 
 
-                #target_reaction = await msg.wait_for_reaction(message=msg)
-                #発言したユーザが同一でない場合 真
-                #if target_reaction.user != msg.author:
-                    #==============================================================
-                    #if target_reaction.reaction.emoji == '⭕':
-                        #==========================================================
-                        #◀のリアクションに追加があったら反応 frelistにuser.nameがあった場合　真
-                        #await channel.send(room_number)
-                        #break;
-                            #メッセージを書き換え
-
-                    #else:
-                        #pass
-                #==============================================================
-                #押された絵文字が既存のものの場合　>> 右　add
-
-
-                #elif target_reaction.reaction.emoji == '❌':
-                        #await client.edit_message(msg, '募集終了\n')
-                        #await client.unpin_message(msg)
-                        #break
-                #await client.remove_reaction(msg, target_reaction.reaction.emoji, target_reaction.user)
-                #ユーザーがつけたリアクションを消す※権限によってはエラー
-                #==============================================================
-        #else:
-            #await client.edit_message(msg, '募集終了\n')
-
-
 # Botの起動とDiscordサーバーへの接続
 client.run(TOKEN)
 
