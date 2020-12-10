@@ -4,7 +4,7 @@ import os
 import traceback
 import asyncio
 
-bot = commands.Bot(command_prefix='/')
+
 token = os.environ['DISCORD_BOT_TOKEN']
 CHANNEL_ID = 780094745640828998
 
